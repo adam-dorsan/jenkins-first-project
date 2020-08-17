@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Running the compiled java code.'
                 sh 'java Hello'
-                sh 'I like java'
+                echo 'I like java'
             }
         }
     }
